@@ -26,7 +26,7 @@ public class FolderController {
 
         List<String> folderNames = folderRequestDto.getFolderNames();
 
-        return folderService.addFolders(folderNames, request);
+        return folderService.addFolders(folderNames, request)
     }
 
     // 회원이 등록한 모든 폴더 조회
